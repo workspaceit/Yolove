@@ -1,0 +1,415 @@
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+.body_bg2{
+	width: 100%;
+}
+.footer .inner{
+	width:auto;
+	padding: 0 20px;
+}
+.admin_right_side{
+	width: 64%;
+}
+.icon_div{
+	font-size: 11px;
+	padding: 7px
+}
+.icon_div img{
+	width:14px;
+	height: 16px;
+}
+.admin_mobile_menu{
+	display:none;
+}
+.for_box .name_box1{
+	width:36%;
+}
+.add_btn .submit{
+	margin-left:0;
+}
+.search_btn_r{
+	
+	display: inline-block;
+	
+}
+.admin_view table, .admin_view thead, .admin_view tbody, .admin_view th, .admin_view td, .admin_view tr { 
+display: block; 
+}
+.admin_view table thead tr { 
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+		
+.admin_view table tr { border: 1px solid #ccc; border-left:none; border-right:none;}
+.admin_view table tr td { 
+/* Behave  like a "row" */
+border: none;
+border-bottom: 1px solid #ccc; 
+position: relative;
+padding-left: 50%!important; 
+text-align: left;
+word-break: break-all;
+}
+
+.cms_pages td:before,
+.manage_cus td:before, 
+.skills_admin td:before, 
+.industries_table td:before,
+.event_table td:before,
+.idea_stage_table td:before,
+.advice_cat_table td:before,
+.advice_table td:before,
+.location_table td:before
+{ 
+/* Now like a table header */
+position: absolute;
+/* Top/left values mimic padding */
+top: 4px;
+left: 6px;
+width: 45%; 
+padding-right: 10px; 
+text-align: left;
+word-break: break-all;
+}
+/*
+Label the data
+*/
+.cms_pages td:nth-of-type(1):before { content: ""; }
+.cms_pages td:nth-of-type(2):before { content: "Page Title"; }
+.cms_pages td:nth-of-type(3):before { content: "Page Url"; }
+.cms_pages td:nth-of-type(4):before { content: "Created"; }
+.cms_pages td:nth-of-type(5):before { content: "Action"; }	
+
+.manage_cus td:nth-of-type(1):before { content: ""; }
+.manage_cus td:nth-of-type(2):before { content: "Name"; }	
+.manage_cus td:nth-of-type(3):before { content: "Email"; }	
+.manage_cus td:nth-of-type(4):before { content: "Account Verification Statu";}	
+.manage_cus td:nth-of-type(5):before { content: "Action"; }	
+
+.skills_admin td:nth-of-type(1):before { content: ""; }
+.skills_admin td:nth-of-type(2):before { content: "Skill Name"; }	
+.skills_admin td:nth-of-type(3):before { content: "Create Date"; }	
+.skills_admin td:nth-of-type(4):before { content: "Action";}
+
+.industries_table td:nth-of-type(1):before { content: ""; }
+.industries_table td:nth-of-type(2):before { content: "Industry Name"; }	
+.industries_table td:nth-of-type(3):before { content: "Create Date"; }	
+.industries_table td:nth-of-type(4):before { content: "Action";}
+
+.event_table td:nth-of-type(1):before { content: ""; }
+.event_table td:nth-of-type(2):before { content: "Image"; }	
+.event_table td:nth-of-type(3):before { content: "City"; }	
+.event_table td:nth-of-type(4):before { content: "Start Date"; }	
+.event_table td:nth-of-type(5):before { content: "End Date"; }	
+.event_table td:nth-of-type(6):before { content: "Action";}	
+
+.idea_stage_table td:nth-of-type(1):before { content: ""; }
+.idea_stage_table td:nth-of-type(2):before { content: "Stage Name"; }	
+.idea_stage_table td:nth-of-type(3):before { content: "Create Date"; }	
+.idea_stage_table td:nth-of-type(4):before { content: "Action"; }	
+
+.advice_cat_table td:nth-of-type(1):before { content: ""; }
+.advice_cat_table td:nth-of-type(2):before { content: "Category Name"; }	
+.advice_cat_table td:nth-of-type(3):before { content: "Create Date"; }	
+.advice_cat_table td:nth-of-type(4):before { content: "Action"; }
+
+.advice_table td:nth-of-type(1):before { content: ""; }
+.advice_table td:nth-of-type(2):before { content: "Stage Name"; }	
+.advice_table td:nth-of-type(3):before { content: "Category Name";}	
+.advice_table td:nth-of-type(4):before { content: "Description"; }
+.advice_table td:nth-of-type(5):before { content: "Action"; }
+
+.location_table td:nth-of-type(1):before { content: ""; }
+.location_table td:nth-of-type(2):before { content: "Location Name"; }	
+.location_table td:nth-of-type(3):before { content: "Create Date"; }	
+.location_table td:nth-of-type(4):before { content: "Action"; }
+	
+.body_bg table tr td:first-child{
+	border-left: none;
+	border-right: none;
+}
+.listbox{
+	border-left: 1px solid #ccc;
+}
+.admin_view table tr td{
+	min-height: 20px;
+}
+.for_box .name_box{
+	min-width:63%;
+}
+.margim_left{
+	margin-left: 154px;
+}
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape)
+{
+.admin_right_side{
+	width:73%;
+}
+.margim_left {
+    margin-left: 243px;
+}	
+.add_btn .submit{
+	margin-left:36%;
+}
+}
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 767px) 
+{
+.body_bg2{
+	width:auto;
+	padding: 0 20px;
+	margin: 20px 0;
+}
+.bo_log_box{
+	width: 100%;
+}
+.bo_log_box .ha{
+	width: auto;
+	display: inline-block;
+	font-size:20px
+}
+.bo_log_box .icon{
+	width: 25%;
+}
+.bo_log_box .fr_bg .lf{
+	display: block;
+	margin-bottom:5px;	
+}
+.bo_log_box .fr_bg .ri {
+    float: left;
+    margin-left: 24px;
+    width: 87%;
+}
+.gap18 {
+    height:0px;
+}
+.top_bg .top_con_box .logo_bg{
+	width: 100%;
+	text-align: center;
+}
+.body_raper .body_bg .left_panel_bg{
+	margin: 0;
+}
+.arrowlistmenu{
+	margin-top: 0px;
+}
+.admin_mobile_menu{
+	display: block;
+	font-size:18px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.left_panel_bg{
+	position: absolute;
+	display: none;
+	top: 30px;
+	left: 0px;
+	z-index: 99;
+	background: #fff;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;	
+}
+.admin_left_sidebar:hover .left_panel_bg{
+	display: block;
+}
+.admin_left_sidebar,.body_raper .body_bg .left_panel_bg{
+	width: 100%;
+}
+.admin_left_sidebar{
+	border-bottom: 1px solid #ccc;
+}
+.admin_right_side{
+	width: 100%;
+}
+.icon_div{
+	font-size: 10px;
+}
+.listbox{
+	border-left: 1px solid #ccc;
+	border-radius: 5px 5px 0 0;
+}
+.for_box .name_box1{
+	width:100%;
+	display: block;
+}
+.add_btn .submit{
+	margin-left: 0px;
+}
+.top_heading_bg_sub a{
+	font-size: 12px;
+}
+.admin_view table, .admin_view thead, .admin_view tbody, .admin_view th, .admin_view td, .admin_view tr { 
+display: block; 
+}
+.admin_view table thead tr { 
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+		
+.admin_view table tr { border: 1px solid #ccc; border-left:none; border-right:none;}
+.admin_view table tr td { 
+/* Behave  like a "row" */
+border: none;
+border-bottom: 1px solid #ccc; 
+position: relative;
+padding-left: 50%!important; 
+text-align: left;
+word-break: break-all;
+}
+.manage_cus tr td{
+	height: 35px;	
+}
+.cms_pages td:before,
+.manage_cus td:before,
+.skills_admin td:before,
+.industries_table td:before,
+.need_table td:before,
+.event_table td:before,
+.idea_stage_table td:before,
+.advice_cat_table td:before,
+.advice_table td:before,
+.location_table td:before
+ { 
+/* Now like a table header */
+position: absolute;
+/* Top/left values mimic padding */
+top: 4px;
+left: 6px;
+width: 45%; 
+padding-right: 10px; 
+text-align: left;
+word-break: break-all;
+}
+/*
+Label the data
+*/
+.cms_pages td:nth-of-type(1):before { content: ""; }
+.cms_pages td:nth-of-type(2):before { content: "Page Title"; }
+.cms_pages td:nth-of-type(3):before { content: "Page Url"; }
+.cms_pages td:nth-of-type(4):before { content: "Created"; }
+.cms_pages td:nth-of-type(5):before { content: "Action"; }	
+
+.manage_cus td:nth-of-type(1):before { content: ""; }
+.manage_cus td:nth-of-type(2):before { content: "Name"; }	
+.manage_cus td:nth-of-type(3):before { content: "Email"; }	
+.manage_cus td:nth-of-type(4):before { content: "Account Verification Statu";}	
+.manage_cus td:nth-of-type(5):before { content: "Action"; }	
+
+.skills_admin td:nth-of-type(1):before { content: ""; }
+.skills_admin td:nth-of-type(2):before { content: "Skill Name"; }	
+.skills_admin td:nth-of-type(3):before { content: "Create Date"; }	
+.skills_admin td:nth-of-type(4):before { content: "Action";}	
+
+.industries_table td:nth-of-type(1):before { content: ""; }
+.industries_table td:nth-of-type(2):before { content: "Industry Name"; }	
+.industries_table td:nth-of-type(3):before { content: "Create Date"; }	
+.industries_table td:nth-of-type(4):before { content: "Action";}
+
+.need_table td:nth-of-type(1):before { content: ""; }
+.need_table td:nth-of-type(2):before { content: "Need Name"; }	
+.need_table td:nth-of-type(3):before { content: "Create Date"; }	
+.need_table td:nth-of-type(4):before { content: "Action";}	
+
+.event_table td:nth-of-type(1):before { content: ""; }
+.event_table td:nth-of-type(2):before { content: "Image"; }	
+.event_table td:nth-of-type(3):before { content: "City"; }	
+.event_table td:nth-of-type(4):before { content: "Start Date"; }	
+.event_table td:nth-of-type(5):before { content: "End Date"; }	
+.event_table td:nth-of-type(6):before { content: "Action";}	
+
+.idea_stage_table td:nth-of-type(1):before { content: ""; }
+.idea_stage_table td:nth-of-type(2):before { content: "Stage Name"; }	
+.idea_stage_table td:nth-of-type(3):before { content: "Create Date"; }	
+.idea_stage_table td:nth-of-type(4):before { content: "Action"; }	
+
+.advice_cat_table td:nth-of-type(1):before { content: ""; }
+.advice_cat_table td:nth-of-type(2):before { content: "Category Name"; }	
+.advice_cat_table td:nth-of-type(3):before { content: "Create Date"; }	
+.advice_cat_table td:nth-of-type(4):before { content: "Action"; }
+
+.advice_table td:nth-of-type(1):before { content: ""; }
+.advice_table td:nth-of-type(2):before { content: "Stage Name"; }	
+.advice_table td:nth-of-type(3):before { content: "Category Name"; }	
+.advice_table td:nth-of-type(4):before { content: "Description"; }
+.advice_table td:nth-of-type(5):before { content: "Action"; }
+
+.location_table td:nth-of-type(1):before { content: ""; }
+.location_table td:nth-of-type(2):before { content: "Location Name"; }	
+.location_table td:nth-of-type(3):before { content: "Create Date"; }	
+.location_table td:nth-of-type(4):before { content: "Action"; }
+
+
+.body_bg table tr td:first-child{
+	border-left: none;
+	border-right: none;
+}
+.search_btn_r{
+	margin-top: 10px;
+	display: block;
+	margin-left: 37px;
+}
+.margim_left{
+	margin-left: 0px;
+}
+.indus_r{
+	text-indent:0px!important;
+}
+.indus_r a{
+	padding:7px 7px;
+	font-size: 11px!important;
+}
+.need_name{
+	width: 100%!important;
+}
+.top_heading_bg{
+	font: 16px 'DiavloMedium' !important;
+}
+.admin_view table tr td{
+	min-height: 20px;
+}
+.for_box .name_box{
+	width: 96%;
+}
+.button{
+	margin-left: 0px;
+}
+.add_btn .submit{
+	margin-left: 0px;
+}
+}
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 767px) 
+and (orientation : landscape) {
+.bo_log_box .fr_bg .ri {
+    float: left;
+    margin-left:0;
+    width: 70%;
+}
+.bo_log_box .fr_bg .ha_bg_in{
+	margin-bottom: 10px;
+}
+.top_bg .top_con_box .logo_bg{
+	width: auto;
+	text-align: left;
+}
+.add_btn .submit{
+	margin-left: 0px;
+}
+.for_box .name_box1{
+	width:30%;
+	display: block;
+}
+}

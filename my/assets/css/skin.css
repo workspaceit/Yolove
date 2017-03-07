@@ -1,0 +1,216 @@
+.btn-success { background-color: #00AFB4; padding: 3px 7px; border-color: #00AFB4; font-size:14px; border-radius:0;}
+.btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
+  background-color: #00AFB4;
+  border-color: #00AFB4;
+  color: #fff;
+}
+.btn-success:hover { background-color: #179a9e; border-color: #00AFB4;  border-radius:0;}
+.btn-danger {
+  background-color: #ed4047;
+  border-radius: 4;
+  float: left;
+  margin: 0;
+  padding: 7px 0;
+  width: 100%; font-size:16px;
+}
+/*
+@media all and (max-width: 1920px) and (min-width: 1281px) {
+.col-md-3 { margin-right: 2%; width: 23%;}
+}
+*/
+@media all and (max-width: 1920px) and (min-width: 990px) {
+	.fixed { background: #fff ; float: left; margin: 0; padding: 0; position: fixed !important; top: 0; width: 100%; z-index: 2147483647;}
+	nav.fixed2 { position: fixed; top: 40px; width: 100%; z-index: 111;}
+}
+@media all and (max-width: 1024px) and (min-width: 990px) {
+.col-lg-1.col-sm-1.col-xs-1.col-md-1 {display: none;}
+.col-lg-5.col-sm-5.col-xs-5.col-md-5 { margin-left: 8px;}
+.col-sm-offset-5 { margin-left: 24.667%;}
+.arrow-left,
+.arrow-right { top: 80px !important; }
+
+}
+@media all and (max-width: 990px) and (min-width: 300px) {
+
+.best-sellers .col-sm-6 ,
+.whole-new .col-sm-6 ,
+.interesting-mixup .col-sm-6 { margin-bottom: 36px;}
+}
+@media all and (max-width: 650px) and (min-width: 300px) {
+
+.product-image { margin-left: 4%;}
+.top-head { display: inherit; margin: 0 20px 8px; padding-bottom: 12px; position: relative; text-align: center; top: 10px;}
+.navbar-top { padding-bottom: 50px;}
+.pull-right > img { margin: 15px; position: relative;}
+.pull-right .btn-success { margin-left: -25px;}
+.logo { margin-top: 4% !important;}
+}
+@media all and (max-width: 640px) and (min-width: 440px) {
+.arrow-left,
+.arrow-right  { top: 280px !important; }
+.banner-details > h1 { font-size: 60px !important;}
+.banner-details > h3 { font-size: 30px !important; padding-bottom: 30px !important;}
+.banner-details > .btn-danger { width: 35% !important;}
+.banner-details {  margin: 0 0 0 10% !important; position: absolute;}
+.btn-success { width: 100%;}
+}
+@media all and (max-width: 990px) and (min-width: 740px) {
+.arrow-left,
+.arrow-right { top: 180px !important; }
+.logo { margin-top: 4% !important;}
+.banner-details > h3 { padding-bottom: 10px !important; font-size:30px !important;}
+.form-search { width: 70% !important;}
+}
+@media all and (max-width: 1024px) and (min-width: 700px) {
+.row.self-row { margin-left: 1%;}
+}
+@media all and (max-width: 330px) and (min-width: 300px) 
+{
+.description { margin-left: 14px !important;}
+}
+@media all and (max-width: 360px) and (min-width: 331px) 
+{
+.description { margin-left: 15px !important; width:91% !important;} 
+}
+@media all and (max-width: 360px) and (min-width: 300px) 
+{
+	.arrow-set { top: 150px !important; }
+	.pull-right { float: left; left: -30px; position: relative; width: 60%;}	
+	.banner-details > h1 { font-size: 20px !important;}
+	.banner-details > h3 { font-size: 10px !important; padding-bottom:0px!important;}
+	.banner-details { margin: 0 0 0 10% !important;}
+	.banner-details > .btn-danger {  float: left; font-size: 10px; margin-bottom: 2%; margin-right: 3%; padding: 6px 0 !important; width: 67% !important;}
+	.row.self-row { margin-left: 0 !important;}
+	.drop {  background-size:contain !important; float: left; height: 30px !important; position: relative; top: -8px; width: 30px!important;}
+	.banner-details > h3 { margin: -7px 0 6px !important; padding: 0;}
+}
+@media all and (max-width: 420px) and (min-width: 400px) 
+{
+	.description { margin-left: 16px !important; width: 91.5% !important;}
+	.row.self-row { margin-left: 0 !important;}
+	.pull-right { float: left !important; margin-left: 32%; width: 48%;}
+	.drop {  background-size:contain !important; float: left; height: 30px !important; position: relative; top: -8px; width: 30px!important;}
+	.banner-details > h1 { font-size: 20px!important ;}
+	.banner-details > h3{ font-size: 12px !important; padding-bottom:0 !important;}
+	.banner-details > .btn-danger { padding: 6px 0!important; width: 47%!important; font-size: 8px!important;}
+}
+@media all and (max-width: 480px) and (min-width: 421px) 
+{
+	.row.self-row { margin-left: 0 !important;}
+	.description { margin-left: 20px !important;  width: 91.5% !important;}
+	.drop {  background-size:contain !important; float: left; height: 30px !important; position: relative; top: -8px; width: 30px!important;}
+
+}
+@media all and (max-width: 770px) and (min-width: 760px) {
+	.description { width:90.8% !important;}
+}
+@media all and (max-width: 570px) and (min-width: 500px) {
+	.description { margin-left: 24px !important; width:91.2% !important;}
+}
+@media all and (max-width: 640px) and (min-width: 590px) {
+	.description { margin-left: 24px !important; width:91.5% !important;}
+}
+@media all and (max-width: 640px) and (min-width: 500px) {
+	.pull-right { float: left !important; margin-left: 32%; width: 48%;}
+	.row.self-row { margin-left: 0 !important;}
+	.drop {  background-size:contain !important; float: left; height: 30px !important; position: relative; top: -8px; width: 30px!important;}
+}
+@media all and (max-width: 740px) and (min-width: 725px) {
+	.banner-details > h1 { font-size: 40px!important ;}
+	.description { width: 91.5% !important;}
+	.banner-details > h3{ font-size: 30px !important; padding-bottom:0 !important;}
+	.banner-details > .btn-danger { padding: 6px 0!important; width: 47%!important; font-size: 8px!important;}
+	.logo { margin: 20px 3px 20px 20% !important;}
+}
+@media all and (max-width: 400px) and (min-width: 375px) {
+	.description { margin-left: 16px !important;width:91% !important;}
+	.banner-details > .btn-danger {float: left;font-size: 10px !important; margin-right: 3%;padding: 5px 0 5px 0 !important; width: 47% !important; margin-top: 8px;}
+	.banner-details > h1 {font-size: 27px !important ;position: relative; z-index: 6;}
+	.banner-details > h3 { font-size: 17px !important; padding-bottom: 0 !important; margin:0;}
+	.drop {  background-size:contain !important; float: left; height: 30px !important; position: relative; top: -8px; width: 30px!important;}
+}
+@media all and (max-width: 667px) and (min-width: 641px) {
+	.description { width: 91.5% !important;}
+	.form-search { top: -15px !important;}
+	.row.self-row { margin-left: 4% !important;}
+	.banner-details > .btn-danger { float: left; font-size: 10px !important; margin-right: 3%; padding: 5px 0 5px 0 !important; width: 47% !important; margin-top: 8px;}
+	.banner-details > h1 {font-size: 27px !important ;position: relative; z-index: 6;}
+	.banner-details > h3 { font-size: 17px !important; padding-bottom: 0 !important; margin:0;}
+	.drop {  background-size:contain !important; float: left; height: 30px !important; position: relative; top: -8px; width: 30px!important;}
+}
+@media all and (max-width: 480px) and (min-width: 320px) {
+	.top-head { font-size:15px !important; }
+	.btn.btn-success { font-size: 12px; margin-left: 15%; width: 70%;}
+	.btn.btn-danger{ font-size: 12px;  width: 70%; }
+	.navbar-nav { margin: 7.5px 0;}
+	.form-search { width: 100% !important;}
+	.input-medium.search-query { height: 35px!important;}
+	.add-on { margin: 7px 0 0 !important;}
+	.nav.navbar-nav a { font-size: 14px !important;}
+	.page-title { font-size: 25px !important; margin-bottom: 20px !important; margin-top: 0!important;}
+	.best-sellers, .whole-new, .interesting-mixup { border: none !important; padding-bottom: 0px!important;}
+	.description > p { font-size: 14px !important;}
+	span {font-size: 15px !important;}
+	.love-value { font-size: 17px!important;}
+	.footer { margin-top: 0 !important;}
+	.input-medium.search-query { border: 1px solid #00AFB4;}
+	.pull-right > img { float: left; margin-left: 0%; width: 22%;}
+	.btn.btn-success.set-m { float: right; left: 0; position: relative; top: 21px !important; width: 50%;}
+	.widget-menu { margin-bottom: 20px; margin-top: 20px; border-bottom:2px solid #00AFB4;padding-bottom:20px !important;}
+	.social { margin-bottom: 30px; border-bottom:2px solid #00AFB4; padding-bottom:20px !important;}
+	.brdr { border-bottom:2px solid #00AFB4; padding-bottom:20px !important;}
+}
+
+.BackToTop {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #f2f2f2 url("../images/btn-top.png") no-repeat center 50%;
+  visibility: hidden;
+  //border:1px solid #999;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.BackToTop.cd-is-visible, .BackToTop.cd-fade-out, .no-touch .BackToTop:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.BackToTop.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.BackToTop.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .BackToTop:hover {
+  background-color: #f2f2f2;
+  //border: 1px solid #999;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .BackToTop {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .BackToTop {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
